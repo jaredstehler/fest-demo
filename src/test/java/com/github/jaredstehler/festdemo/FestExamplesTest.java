@@ -55,7 +55,8 @@ public class FestExamplesTest {
         List<String> list = list();
         assertThat(list).hasSize(3)
             .contains("a", "b")
-            .doesNotContain("d");
+            .doesNotContain("d")
+            .containsSequence("b", "c");
     }
     
     @Test
