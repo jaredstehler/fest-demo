@@ -31,7 +31,7 @@ import com.google.common.collect.Lists;
  * 
  * @see https://github.com/alexruiz/fest-assert-2.x/wiki/Using-fest-assertions
  */
-public class FestExamples {
+public class FestExamplesTest {
     
     @Test
     public void commonAssertions() {
