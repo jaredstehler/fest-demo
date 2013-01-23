@@ -1,5 +1,5 @@
 package com.github.jaredstehler.festdemo;
 
-public class BasicFestTest {
+public class FestSandboxTest {
     
 }
