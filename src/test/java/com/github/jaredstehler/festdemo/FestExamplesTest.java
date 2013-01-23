@@ -79,7 +79,10 @@ public class FestExamplesTest {
         
         assertThat(map).hasSize(2)
             .contains(entry("a", "b"), entry("c", "d"))
-            .doesNotContain(entry("a", "e"));
+            .doesNotContain(entry("a", "e"))
+            .containsKey("a")
+            .containsValue("d")
+            .doesNotContain(entry("f", "g"));
     }
 
     private List<String> list() {

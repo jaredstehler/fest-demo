@@ -79,5 +79,5 @@ public class Person {
                Objects.equal(hobby, other.hobby) &&
                Objects.equal(nicknames, other.nicknames);
     }
-
+    
 }
